@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Calculator</title>
+  </head>
+  <body>
+    <h1 align="center" style="color: white">Js Calculator</h1>
+    <div id="calculator">
+      <input id="abcd" readonly />
+      <input id="input" readonly value="0" />
+      <div class="flex-container">
+        <div class="sp-btn clear-btn all-clr">AC</div>
+        <div class="sp-btn clear-btn clr">CE</div>
+        <div class="sp-btn plusm">&plusmn;</div>
+        <div class="btn operator" data-value="/">&divide;</div>
+      </div>
+      <div class="flex-container">
+        <div class="btn">7</div>
+        <div class="btn">8</div>
+        <div class="btn">9</div>
+        <div class="btn operator" data-value="*">&times;</div>
+      </div>
+      <div class="flex-container">
+        <div class="btn">4</div>
+        <div class="btn">5</div>
+        <div class="btn">6</div>
+        <div class="btn operator" data-value="-">&minus;</div>
+      </div>
+      <div class="flex-container">
+        <div class="btn">1</div>
+        <div class="btn">2</div>
+        <div class="btn">3</div>
+      </div>
+      <div class="flex-container">
+        <div class="btn">0</div>
+        <div class="btn" id="dot" data-value=".">.</div>
+        <div class="sp-btn enter">&equals;</div>
+        <div class="btn plus operator" data-value="+">&plus;</div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</html>
